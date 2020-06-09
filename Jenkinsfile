@@ -4,7 +4,7 @@ pipeline {
    stages {
       stage('Git Clone') {
          steps {             
-             git url: 'https://github.com/github4swapnil/Pipeline_demo.git'
+             git url: 'https://github.com/github4swapnil/Dev.git'
          }
       }
       stage('Execute Stored Procedure')
