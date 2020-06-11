@@ -17,8 +17,7 @@ pipeline {
                            /opt/mssql-tools/bin/sqlcmd -S qacop.ccz8gy1ujvhp.us-east-2.rds.amazonaws.com,1433 -U swapniln -P swapnilqacop -i "${sql_file}"
                         done
                 '''
-               )
-                  '''
+                              
           }
       }
    }
