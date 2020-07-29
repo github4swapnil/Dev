@@ -1,5 +1,8 @@
 ﻿USE [QACOP1]
-
+ 
+ 
+ 
+ 
 
 GO          
 INSERT [dbo].[Humana_TRR_SRC] ([HICN], [MBR_LAST_NAME], [MBR_FIRST_NAME], [MBR_MIDDLE], [GENDER_CODE], [MBR_DOB], 
